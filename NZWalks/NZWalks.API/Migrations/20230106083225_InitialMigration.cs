@@ -15,6 +15,7 @@ namespace NZWalks.API.Migrations
                 name: "Regions",
                 columns: table => new
                 {
+
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Code = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
